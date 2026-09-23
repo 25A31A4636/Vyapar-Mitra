@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-vyapar-navy: #17324D;
+  --color-vyapar-slate: #244B68;
+  --color-vyapar-ivory: #F8F6F0;
+  --color-vyapar-white: #FFFFFF;
+  --color-vyapar-saffron: #E8892E;
+  --color-vyapar-green: #287A4B;
+  --color-vyapar-teal: #267C78;
+  --color-vyapar-text-primary: #17212B;
+  --color-vyapar-text-secondary: #596773;
+  --color-vyapar-border: #D9DEE3;
+  --color-vyapar-warning: #B7791F;
+  --color-vyapar-danger: #B23B3B;
+
+  --font-serif: "Noto Serif", serif;
+  --font-sans: "Noto Sans", sans-serif;
+}
+
+body {
+  background-color: var(--color-vyapar-ivory);
+  color: var(--color-vyapar-text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
